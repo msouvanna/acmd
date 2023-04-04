@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buffalo Outdoor Adventures</title>
+    <meta name="description" content="Buffalo Outdoor Adventures Website">
+    <meta name="keywords" content="Buffalo, Outdoors">
+    <meta name="author" content="ACMD Development">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+</head>
+<body>
+    <form id="myform" onsubmit="return false">
+        <div class="formcontainer">
+            <h1>Measure River Height</h1>
+            <label for="riverheight" class="formlabel">Press the button below to view the Buffalo River height at Ponca, Pruitt, Carver, and Boxley </label>
+            <br><br>
+            <input type="button" value="DisplayHeight" name="DisplayHeight" onclick="displayHeight();">
+            <br><br>
+            <label for="test" class="formlabel"></label><span id="test"></span><br>
+           
+            <!--<label for="circumference" class="formlabel">Circumference:</label><span id="circumference"></span><br>
+            <label for="area" class="formlabel">Area:</label><span id="area"></span><br>-->
+            
+        </div>
+    </form>
+</body>
+<script src="assets/scripts/index.js"></script>
+</html>
