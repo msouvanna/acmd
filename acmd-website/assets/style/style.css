@@ -1,3 +1,45 @@
+/* -------------Box Sizing--------------- */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+/* ------------Utility Styles------------- */
+
+.img-right {
+   float: right;
+   margin: 10px 0 10px 20px;
+   padding: 5px; 
+}
+
+.img-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+    padding: 5px;
+}
+
+.img-center{
+    display:block;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+
+/* ------------Responsive Images----------- */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
 /*----- FONT CSS -------- */
 /*font-family: "bungee", sans-serif;
 font-weight: 400;
@@ -12,7 +54,7 @@ font-family: 'Raleway', sans-serif; */
 /* ------------- ADDED CLASSES --------------- */
 
 
-/*this is for the NavBar*/
+/*----Navigation CSS-----*/
 .background{
     background-color: #19202B;
 }
@@ -20,4 +62,28 @@ font-family: 'Raleway', sans-serif; */
 .white-text{
     color: #fff;
 }
+
+.navigation-link{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    font-size: 16px;
+}
+
+
+.navbar1{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.red{
+    background: red;
+}
+
+/*---header image---*/
+
+
+/*-----reservations page-----*/
+
 
