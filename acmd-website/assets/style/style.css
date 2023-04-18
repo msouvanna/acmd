@@ -1,3 +1,7 @@
+*{
+    font-family: 'Raleway', serif;
+}
+
 /* -------------Box Sizing--------------- */
 html {
     box-sizing: border-box;
@@ -49,6 +53,10 @@ font-style: normal;
 
 font-family: 'Raleway', sans-serif; */
 
+/*-- hex codes ----
+
+#1902
+
 /* ------------- ADDED CLASSES --------------- */
 
 
@@ -79,18 +87,13 @@ font-family: 'Raleway', sans-serif; */
     background: red;
 }
 
-/*---header image---*/
+/*---header images---*/
 
-
-/*-----reservations page-----*/
-
-
-/*-----contact page-----*/
 #banner{
     background: linear-gradient(rgba(0, 0, 0, 0.1),#000000ab), url(../img/DSC04155.jpg);
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 87vh;
 }
 
 .banner-text{
@@ -108,7 +111,73 @@ font-family: 'Raleway', sans-serif; */
     font-style: italic;
 }
 
+#banner2{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000ab), url(../img/DSC04219.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 87vh;
+}
 
+.banner-text2{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+
+.banner-text2 h1{
+    font-size: 70px
+}
+
+.banner-text2 p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+#banner3{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),#000000ab), url(../img/33df6e29-1a03-4dd1-b414-95a5e10655d3.lg1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 87vh;
+}
+
+.banner-text3{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+
+.banner-text3 h1{
+    font-size: 70px
+}
+
+.banner-text3 p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+/*--------about page--------*/
+
+#tad-bit{
+    background-color: red;
+}
+
+
+
+
+/*-----reservations page-----*/
+#reservation-content{
+    width: 80%;
+    margin: 50px auto;
+    background-color: red; /* used to see container dimensions.. will be commented out */
+}
+
+.content-info{
+    margin: 20px 20px;
+}
+
+
+
+/*-----contact page-----*/
 body{
     background: #fff;
     font-size:14px;
@@ -131,7 +200,7 @@ body{
 
 .contact-right{
     flex-basis: 40%;
-    padding: 40px;
+    padding: 100px;
     background:#19202B;
     color: #fff;
 }
@@ -203,3 +272,40 @@ tr td{
 
 
 /* ------------ Image Carousel Styles ----------- */
+
+body{
+    background-color:white;
+}
+
+img{
+    max-width:100%;
+}
+
+.container{
+    margin:40px auto;
+    width:70vw;
+    /* Set Max Content Width */
+    max-width:700px;
+}
+
+/* Customize Previous/Next/Dots/Autoplay */
+
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: white;
+}
+
+/* Customize Previous/Next/Dots/Autoplay - Active State */
+
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:black;
+}
