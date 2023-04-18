@@ -158,24 +158,50 @@ font-family: 'Raleway', sans-serif; */
 /*--------about page--------*/
 
 #tad-bit{
-    background-color: red;
+    background-color: #F2EFE8;
 }
 
+section#tad-bit h2{
+    text-align: center;
+    padding: 15px 0;
+}
 
+.qf-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 90px;
+}
+
+#tad-bit article.qf-post{
+    width: 33%;
+    padding: 10px 30px;
+}
+
+#tad-bit article.qf-post h3{
+    text-align: center;
+    font-size: 1.6em;
+}
 
 
 /*-----reservations page-----*/
 #reservation-content{
     width: 80%;
     margin: 50px auto;
-    background-color: red; /* used to see container dimensions.. will be commented out */
+    background-color: blueviolet; /* used to see container dimensions.. will be commented out */
+    padding: 20px;
 }
 
 .content-info{
-    margin: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-
+.content-info img{
+    margin: 10px;
+}
 
 /*-----contact page-----*/
 body{
@@ -200,7 +226,7 @@ body{
 
 .contact-right{
     flex-basis: 40%;
-    padding: 100px;
+    padding: 40px;
     background:#19202B;
     color: #fff;
 }
@@ -309,3 +335,31 @@ img{
 {
     color:black;
 }
+
+
+/*Footer*/
+footer#colophon{
+    background-color:#19202B;
+    margin-top:30px;
+  }
+
+footer{
+    padding-top:150px;
+}
+  
+  #colophon h6{
+    padding:20px;
+    margin:0;
+    color:#fff;
+    text-align:center;
+    font-size:.7em;
+    text-transform:uppercase;
+  }
+  
+  #colophon a{
+    color:#fff;
+  }
+  
+  #colophon a:hover{
+    text-decoration:none;
+  }
