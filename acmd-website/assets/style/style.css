@@ -188,7 +188,7 @@ section#tad-bit h2{
 /*-----reservations page-----*/
 #reservation-content{
     width: 80%;
-    margin: 50px auto;
+    margin: 40px auto;
     background-color: blueviolet; /* used to see container dimensions.. will be commented out */
     padding: 20px;
 }
@@ -196,11 +196,40 @@ section#tad-bit h2{
 .content-info{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.content-info1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-info2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .content-info img{
     margin: 10px;
+}
+
+.content-info1 img{
+    margin: 10px;
+}
+
+.content-info2 img{
+    margin: 10px;
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-text h2{
+    margin-top: 15px;
 }
 
 /*-----contact page-----*/
