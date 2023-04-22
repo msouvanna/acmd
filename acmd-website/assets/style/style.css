@@ -230,6 +230,14 @@ section#tad-bit h2{
     width: 100%;
 }
 
+.river-table td{
+    border: 1pt solid;
+}
+
+.td-center{
+    text-align: center;
+}
+
 
 /*photography section*/
 
