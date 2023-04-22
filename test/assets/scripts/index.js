@@ -37,9 +37,8 @@ async function displayHeight() {
             }]
         },
         "options": {
-            responsive: false,
-            maintainAspectRatio: true,
-
+            "responsive": false,
+            "maintainAspectRatio": true,
         }
     });
 
@@ -171,27 +170,43 @@ async function displayHeight() {
                 "label": sitenameeee, //site 4
                 "data": valuessss,
                 "fill": false,
-                "borderColor": "yellow",
+                "borderColor": "black",
                 "lineTension": 0.1
             }]
         },
         "options": {
             "responsive": false,
-            "maintainAspectRatio": true,
+            "maintainAspectRatio": false,
             "title":{
-                display:true,
-                text:"hello, can anyone see this?"
+                "display":true,
+                "text":"River Levels",
+                "fontSize":15
+            },
+            "legend":{
+                "display":true,
             },
             "scales":{
-                "x":{
-                    
-                }
+                "xAxes": [{
+                    "type": 'time',
+                    "time":{
+                        "unit": 'day',
+                        "displayFormats": {
+                            "day": 'MMM DD'
+                        }
+                    }
+                }],
+                "yAxes": [{
+                    "scaleLabel": {
+                        "display":true,
+                        "labelString": siteDescription
+                    }
+                }]    
             }
         }
     });
 
 
 
-
+ 
 
 }

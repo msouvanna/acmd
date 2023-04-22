@@ -163,16 +163,20 @@ font-family: 'Raleway', sans-serif; */
 /* article section*/
 #tad-bit{
     background-color: #F2EFE8;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 section#tad-bit h2{
     text-align: center;
     padding: 25px 0 0 0;
     text-decoration: underline;
-    text-decoration-thickness: 2pt;
     text-decoration-color: #46591D;
 }
+
+#tad-bit p {
+    font-size: 15px;
+}
+
 
 .qf-container{
     display: flex;
@@ -198,8 +202,36 @@ section#tad-bit h2{
     text-align: left;
 }
 
-/*photography section*/
+/* river levels section */
 
+#river-levels{
+    padding: 40px;
+}
+
+.level-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.river-table p {
+    font-size: 20px;
+}
+
+.river-table table{
+    border: 1pt solid;
+}
+
+.river-table thead{
+    background-color: #46591D;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+}
+
+
+/*photography section*/
 
 .photography-intro p{
     text-align: center;
@@ -246,6 +278,48 @@ img:nth-child(3) {
     z-index: 2;
 }
 
+/* Carousel Section*/
+
+.carousel-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.carousel-images{
+    padding: 60px;
+    background-color: #F1f1f1;
+}
+
+.carousel-images h4, .carousel-images a{
+    background-color: #46591D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.carouselExample button{
+    text-align: center;
+}
+
+.mission-statement h3{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #46591D;
+    margin-bottom: 40px;
+}
+
+.mission-statement{
+    background-color: #F8F8F8;
+    padding: 100px 50px;
+}
+
+.mission-statement p{
+    font-size: 15px;
+    max-width: 500px;
+    justify-content: center;
+}
 
 /*-----reservations page-----*/
 #reservation-content{
@@ -365,47 +439,6 @@ tr td{
 
 
 
-
-/* ------------ Image Carousel Styles ----------- */
-
-body{
-    background-color:white;
-}
-
-img{
-    max-width:100%;
-}
-
-.container{
-    margin:40px auto;
-    width:70vw;
-    /* Set Max Content Width */
-    max-width:700px;
-}
-
-/* Customize Previous/Next/Dots/Autoplay */
-
-.slick-autoplay-toggle-button,
-.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
-.slick-dots li button .slick-dot-icon,
-.slick-dots li.slick-active button .slick-dot-icon {
-  color: white;
-}
-
-/* Customize Previous/Next/Dots/Autoplay - Active State */
-
-.slick-next:focus .slick-next-icon,
-.slick-next:focus .slick-prev-icon,
-.slick-prev:focus .slick-next-icon,
-.slick-prev:focus .slick-prev-icon,
-.slick-dots li button:focus .slick-dot-icon:before,
-.slick-dots li.slick-active button:focus .slick-dot-icon,
-.slick-autoplay-toggle-button:focus 
-{
-    color:black;
-}
-
-
 /*Footer*/
 footer{
     bottom: 0;
@@ -453,7 +486,6 @@ footer{
 .socials a i{
     font-size: 1.1rem;
     transition: color .4s ease;
-
 }
 .socials a:hover i{
     color: rgb(85, 111, 138);
