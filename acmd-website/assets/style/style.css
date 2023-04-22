@@ -353,6 +353,10 @@ img:nth-child(3) {
     margin-top: 5px;
 }
 
+.booqable-product-button{
+    justify-content: center;   
+}
+
 /*-----contact page-----*/
 body{
     background: #fff;
