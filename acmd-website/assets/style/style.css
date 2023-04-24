@@ -333,8 +333,15 @@ img:nth-child(3) {
 #reservation-content{
     width: 80%;
     margin: 40px auto;
-    background-color: blueviolet; /* used to see container dimensions.. will be commented out */
+    background-color: burlywood; /* used to see container dimensions.. will be commented out */
     padding: 15px;
+    
+}
+
+.content-info1{
+    display: flex;
+    padding: 5px;
+    margin: 20px;
 }
 
 .content-info{
@@ -357,7 +364,20 @@ img:nth-child(3) {
     justify-content: center;   
 }
 
-/*-----contact page-----*/
+#content-text1{
+    margin: 50px;
+    justify-content: center;
+}
+
+#content-text{
+    margin: 10px;
+}
+
+h3{
+    text-align: center;
+}
+
+/*-----contact page-----*/  
 body{
     background: #fff;
     font-size:14px;
