@@ -90,6 +90,10 @@ font-family: 'Raleway', sans-serif; */
     background: red;
 }
 
+.white{
+    background: #F2EFE8;
+}
+
 /*---header images---*/
 
 #banner{
@@ -330,6 +334,7 @@ img:nth-child(3) {
 }
 
 /*-----reservations page-----*/
+
 #reservation-content{
     width: 80%;
     margin: 40px auto;
@@ -374,6 +379,13 @@ img:nth-child(3) {
 
 h3{
     text-align: center;
+}
+
+.reserve{
+    background-color: #F1F1F1;
+    padding: 15px;
+    border: 1pt solid #19202B;
+    border-radius: 10px;
 }
 
 
