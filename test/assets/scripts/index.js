@@ -4,7 +4,6 @@ async function displayHeight() {
     var msgObject = await fetch(myURL);
     var msgJSONText = await msgObject.text();
     var msg = JSON.parse(msgJSONText);
-    // document.getElementById("test").innerHTML = msgJSONText;
 
     /* Site 1 */
     var dates = [];
@@ -22,7 +21,7 @@ async function displayHeight() {
 
 
     /* Put your code here to display a graph of values and dates for Site 1*/
-    var ctx0 = document.getElementById("chartjs-0");
+ /*   var ctx0 = document.getElementById("chartjs-0");
 
     var myChart = new Chart(ctx0, {
         "type": "line",
@@ -40,7 +39,7 @@ async function displayHeight() {
             "responsive": false,
             "maintainAspectRatio": true,
         }
-    });
+    }); */
 
     /* Site 2 */
     var dates = [];
@@ -55,7 +54,7 @@ async function displayHeight() {
     var sitecode = msg.value.timeSeries[1].sourceInfo.siteCode[0].value
     var siteDescription = msg.value.timeSeries[1].variable.variableDescription
 
-    var ctx1 = document.getElementById("chartjs-1");
+/*    var ctx1 = document.getElementById("chartjs-1");
 
     var myChart = new Chart(ctx1, {
         "type": "line",
@@ -74,7 +73,7 @@ async function displayHeight() {
             "responsive": false,
             "maintainAspectRatio": true,
         }
-    });
+    }); */
 
     /* Site 3 */
     var dates = [];
@@ -89,9 +88,9 @@ async function displayHeight() {
     var sitecode = msg.value.timeSeries[2].sourceInfo.siteCode[0].value
     var siteDescription = msg.value.timeSeries[2].variable.variableDescription
 
-    var ctx2 = document.getElementById("chartjs-2");
+  /*  var ctx2 = document.getElementById("chartjs-2");
 
-    var myChart = new Chart(ctx2, {
+      var myChart = new Chart(ctx2, {
         "type": "line",
         "data": {
             "labels": dates,
@@ -107,7 +106,7 @@ async function displayHeight() {
             "responsive": false,
             "maintainAspectRatio": true,
         }
-    });
+    }); */
 
     /* Site 4 */
     var dates = [];
@@ -122,7 +121,7 @@ async function displayHeight() {
     var sitecode = msg.value.timeSeries[3].sourceInfo.siteCode[0].value
     var siteDescription = msg.value.timeSeries[3].variable.variableDescription
 
-    var ctx3 = document.getElementById("chartjs-3");
+ /*   var ctx3 = document.getElementById("chartjs-3");
 
     var myChart = new Chart(ctx3, {
         "type": "line",
@@ -140,9 +139,9 @@ async function displayHeight() {
             "responsive": false,
             "maintainAspectRatio": true,
         }
-    });
+    }); */
 
-    var ctx4 = document.getElementById("chartjs-4");
+    var ctx4 = document.getElementById("chartjs-4"); //change id of canvas
 
     var myChart = new Chart(ctx4, {
         "type": "line",

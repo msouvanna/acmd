@@ -333,9 +333,8 @@ img:nth-child(3) {
 #reservation-content{
     width: 80%;
     margin: 40px auto;
-    background-color: burlywood; /* used to see container dimensions.. will be commented out */
+   /* background-color: burlywood; /* used to see container dimensions.. will be commented out */
     padding: 15px;
-    
 }
 
 .content-info1{
@@ -361,7 +360,7 @@ img:nth-child(3) {
 }
 
 .booqable-product-button{
-    justify-content: center;   
+    justify-content: center;
 }
 
 #content-text1{
@@ -376,6 +375,8 @@ img:nth-child(3) {
 h3{
     text-align: center;
 }
+
+
 
 /*-----contact page-----*/  
 body{
